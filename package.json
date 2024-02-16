@@ -1,0 +1,45 @@
+{
+  "name": "enext",
+  "version": "1.0.0",
+  "description": "Next.js Runtime Environment Configuration - Populates your environment at runtime rather than build time.",
+  "author": "Hamza Bahlaouane",
+  "main": "lib/index.js",
+  "source": "src/index.ts",
+  "license": "ISC",
+  "keywords": [
+    "nextjs",
+    "runtime",
+    "env",
+    "runtime env",
+    "enext"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bahlaouane-Hamza/enext"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib",
+    "types"
+  ],
+  "types": "types/index.d.ts",
+  "scripts": {
+    "dev": "tsc --watch --preserveWatchOutput",
+    "prebuild": "npm run clean",
+    "build": "tsc",
+    "clean": "rimraf lib && rimraf types"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "@types/react": "^18.2.0",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "next": ">=13.0.0",
+    "react": "^18",
+    "react-dom": "^18"
+  }
+}

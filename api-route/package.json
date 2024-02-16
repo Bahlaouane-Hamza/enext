@@ -1,0 +1,5 @@
+{
+    "main": "../lib/api-route.js",
+    "module": "../src/api-route.ts",
+    "types": "../types/api-route.d.ts"
+}
