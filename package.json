@@ -1,6 +1,6 @@
 {
   "name": "env-nextjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Next.js Runtime Environment Configuration - Populates your environment at runtime rather than build time.",
   "author": "Hamza Bahlaouane",
   "main": "lib/index.js",
@@ -18,10 +18,12 @@
     "url": "https://github.com/Bahlaouane-Hamza/env-nextjs"
   },
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "api-route": "api-route"
   },
   "files": [
     "lib",
+    "api-route",
     "types"
   ],
   "types": "types/index.d.ts",
