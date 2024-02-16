@@ -1,5 +1,5 @@
 {
-  "name": "enext",
+  "name": "env-nextjs",
   "version": "1.0.0",
   "description": "Next.js Runtime Environment Configuration - Populates your environment at runtime rather than build time.",
   "author": "Hamza Bahlaouane",
@@ -11,11 +11,11 @@
     "runtime",
     "env",
     "runtime env",
-    "enext"
+    "env-nextjs"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Bahlaouane-Hamza/enext"
+    "url": "https://github.com/Bahlaouane-Hamza/env-nextjs"
   },
   "directories": {
     "lib": "lib"
